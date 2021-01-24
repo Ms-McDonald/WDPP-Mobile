@@ -214,10 +214,16 @@ ul, p {
 #wdpp-image {
   max-width: 40vw
 }
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px)
+{
+  .overview-bg1 {
+    border: none;
+  }
+}
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px)
 {
-
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px)
@@ -249,5 +255,12 @@ ul, p {
   .overview-bg1 {
     background: rgb(255,255,255);
     border: none;
+  }
+}
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1200px)
+{
+  #wdpp-image {
+    max-width: 33vw
   }
 }
