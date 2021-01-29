@@ -246,6 +246,32 @@ ul, p {
 .gradient {
   background: linear-gradient(60deg, rgba(246,79,89,1) 0%, rgba(196,113,237,1) 50%, rgba(0,212,255,1) 100%);
 }
+.foot {
+  color: white;
+}
+.top-foot {
+  height: 150px;
+}
+.bottom-foot {
+  height: 60px;
+  background-color: #2b2b2b;
+}
+div[id^="tf"]  {
+  align-items: center!important;
+  display: flex;
+}
+#tf-1 {
+  background-color: rgba(43, 43, 43,.95);
+}
+#tf-2, #tf-g {
+  background-color: rgba(43, 43, 43,.9);
+}
+#tf-3 {
+  background-color: rgba(43, 43, 43,.85);
+}
+#tf-4 {
+  background-color: rgba(43, 43, 43,.8);
+}
 #mission {
   font-family: 'Rock Salt', cursive;
   background: -webkit-linear-gradient(60deg, rgba(246,79,89,1) 0%, rgba(196,113,237,1) 50%, rgba(0,212,255,1) 100%);
