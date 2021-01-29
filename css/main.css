@@ -256,6 +256,10 @@ ul, p {
   height: 60px;
   background-color: #2b2b2b;
 }
+address a[href], .footer-link  {
+  color: white;
+  text-decoration: none;
+}
 div[id^="tf"]  {
   align-items: center!important;
   display: flex;
