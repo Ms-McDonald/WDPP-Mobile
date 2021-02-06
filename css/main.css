@@ -2,7 +2,7 @@
   /* border: 1px solid red; */
 }
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 h1 {
   font-size: 2.25rem;
@@ -22,7 +22,8 @@ h5 {
 h6 {
   font-size: 1.5rem;
 }
-ul, p {
+ul,
+p {
   font-size: 16px;
 }
 .docs {
@@ -30,23 +31,33 @@ ul, p {
   background-image: linear-gradient(to bottom, #333, #2b2b2b);
 }
 .cursive {
-  font-family: 'Rock Salt', cursive;
+  font-family: "Rock Salt", cursive;
   font-size: 35px;
 }
 .white {
-    color: white;
+  color: white;
 }
 .sequence img {
   max-height: 225px;
 }
+.sequence button,
+.sequence button:link,
+.sequence button:visited,
+.sequence button:hover,
+.sequence button:active {
+  outline: -webkit-focus-ring-color auto 0px;
+  background-color: transparent;
+  border: none;
+}
 .quote {
   font-size: 1.5rem;
 }
-.open-q, .close-q {
+.open-q,
+.close-q {
   height: 50px;
 }
 .navbar-light .navbar-nav .nav-link {
-    color: rgba(0,0,0,.9);
+  color: rgba(0, 0, 0, 0.9);
 }
 .active {
   font-weight: bold;
@@ -56,7 +67,8 @@ ul, p {
   color: #fff;
   background-color: #777;
 }
-.bs-tooltip-auto[x-placement^=bottom] .arrow::before, .bs-tooltip-bottom .arrow::before {
+.bs-tooltip-auto[x-placement^="bottom"] .arrow::before,
+.bs-tooltip-bottom .arrow::before {
   border-bottom-color: #777;
 }
 /* STYLES TOOLTIP */
@@ -77,12 +89,12 @@ ul, p {
   display: block;
   width: 100%;
   height: auto;
-  transition: .8s ease;
+  transition: 0.8s ease;
   backface-visibility: hidden;
 }
 
 .middle-home {
-  transition: .8s ease;
+  transition: 0.8s ease;
   opacity: 0;
   position: absolute;
   top: 50%;
@@ -101,19 +113,18 @@ ul, p {
 }
 
 .text-home {
-  background-color: rgba(0,80,170,1);
+  background-color: rgba(0, 80, 170, 1);
   border-radius: 20px;
   color: white;
   font-size: 16px;
   padding: 10px 1rem;
 }
 .sequence a {
-  text-decoration: none!important;
+  text-decoration: none !important;
 }
 .course-seq {
   font-size: 22px;
   color: black;
-
 }
 .seq-name {
   color: black;
@@ -121,8 +132,13 @@ ul, p {
   font-size: 30px;
 }
 #sequence-title {
-  font-family: 'Rock Salt', cursive;
-  background: -webkit-linear-gradient(60deg, rgba(246,79,89,1) 0%, rgba(196,113,237,1) 50%, rgba(0,212,255,1) 100%);
+  font-family: "Rock Salt", cursive;
+  background: -webkit-linear-gradient(
+    60deg,
+    rgba(246, 79, 89, 1) 0%,
+    rgba(196, 113, 237, 1) 50%,
+    rgba(0, 212, 255, 1) 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 35px;
@@ -140,11 +156,11 @@ ul, p {
   display: block;
   width: 100%;
   height: auto;
-  transition: .8s ease;
+  transition: 0.8s ease;
   backface-visibility: hidden;
 }
 .middle {
-  transition: .8s ease;
+  transition: 0.8s ease;
   opacity: 0;
   position: absolute;
   top: 50%;
@@ -163,7 +179,7 @@ ul, p {
 }
 
 .text {
-  background-color: rgba(0,80,170,1);
+  background-color: rgba(0, 80, 170, 1);
   border-radius: 50px;
   color: white;
   font-size: 14px;
@@ -184,15 +200,15 @@ ul, p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  -moz-box-shadow:    inset 0 0 30px #000000;
-   -webkit-box-shadow: inset 0 0 30px #000000;
-   box-shadow:         inset 0 0 30px #000000;
+  -moz-box-shadow: inset 0 0 30px #000000;
+  -webkit-box-shadow: inset 0 0 30px #000000;
+  box-shadow: inset 0 0 30px #000000;
 }
 /* END PARALLAX EFFECT */
 .white-bg {
   background-color: rgba(255, 255, 255, 1);
-  -webkit-box-shadow: 0px 4px 3px 0px rgba(0,0,0,0.5);
-  box-shadow: 0px 4px 3px 0px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.5);
 }
 .brand-image {
   max-height: 34px;
@@ -212,30 +228,49 @@ ul, p {
   width: 100%;
 }
 .card {
-  border: 0px solid rgba(0,0,0,0);
+  border: 0px solid rgba(0, 0, 0, 0);
 }
 .card-header {
   /* background: rgb(2,0,36);
   background: linear-gradient(5deg, rgba(2,0,36,1) 0%, rgba(15,15,107,1) 0%, rgba(0,80,170,1) 100%); */
   border-top: 5px solid;
-  border-image: linear-gradient(60deg, rgba(246,79,89,1) 0%, rgba(196,113,237,1) 50%, rgba(0,212,255,1) 100%) 1;
+  border-image: linear-gradient(
+      60deg,
+      rgba(246, 79, 89, 1) 0%,
+      rgba(196, 113, 237, 1) 50%,
+      rgba(0, 212, 255, 1) 100%
+    )
+    1;
   font-weight: bold;
 }
-.card-body, .card-header {
+.card-body,
+.card-header {
   width: 65%;
   margin: auto;
   background-color: white;
 }
 .top-border {
   border-top: 15px solid;
-  border-image: linear-gradient(60deg, rgba(246,79,89,1) 0%, rgba(196,113,237,1) 50%, rgba(0,212,255,1) 100%) 1;
+  border-image: linear-gradient(
+      60deg,
+      rgba(246, 79, 89, 1) 0%,
+      rgba(196, 113, 237, 1) 50%,
+      rgba(0, 212, 255, 1) 100%
+    )
+    1;
 }
 .overview-bg1 {
   border: 10px solid;
   border-top: none;
   border-bottom: none;
   padding: 10px;
-  border-image: linear-gradient(60deg, rgba(246,79,89,1) 0%, rgba(196,113,237,1) 50%, rgba(0,212,255,1) 100%) 1;
+  border-image: linear-gradient(
+      60deg,
+      rgba(246, 79, 89, 1) 0%,
+      rgba(196, 113, 237, 1) 50%,
+      rgba(0, 212, 255, 1) 100%
+    )
+    1;
 }
 .bold {
   font-weight: bold;
@@ -244,7 +279,12 @@ ul, p {
   padding: 1rem;
 }
 .gradient {
-  background: linear-gradient(60deg, rgba(246,79,89,1) 0%, rgba(196,113,237,1) 50%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(
+    60deg,
+    rgba(246, 79, 89, 1) 0%,
+    rgba(196, 113, 237, 1) 50%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 .foot {
   color: white;
@@ -256,29 +296,39 @@ ul, p {
   height: 60px;
   background-color: #2b2b2b;
 }
-address a[href], .footer-link  {
+.bottom-foot a{
+  color: white;
+}
+address a[href],
+.footer-link {
   color: white;
   text-decoration: none;
 }
-div[id^="tf"]  {
-  align-items: center!important;
+div[id^="tf"] {
+  align-items: center !important;
   display: flex;
 }
 #tf-1 {
-  background-color: rgba(43, 43, 43,.95);
+  background-color: rgba(43, 43, 43, 0.95);
 }
-#tf-2, #tf-g {
-  background-color: rgba(43, 43, 43,.9);
+#tf-2,
+#tf-g {
+  background-color: rgba(43, 43, 43, 0.9);
 }
 #tf-3 {
-  background-color: rgba(43, 43, 43,.85);
+  background-color: rgba(43, 43, 43, 0.85);
 }
 #tf-4 {
-  background-color: rgba(43, 43, 43,.8);
+  background-color: rgba(43, 43, 43, 0.8);
 }
 #mission {
-  font-family: 'Rock Salt', cursive;
-  background: -webkit-linear-gradient(60deg, rgba(246,79,89,1) 0%, rgba(196,113,237,1) 50%, rgba(0,212,255,1) 100%);
+  font-family: "Rock Salt", cursive;
+  background: -webkit-linear-gradient(
+    60deg,
+    rgba(246, 79, 89, 1) 0%,
+    rgba(196, 113, 237, 1) 50%,
+    rgba(0, 212, 255, 1) 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -301,18 +351,16 @@ div[id^="tf"]  {
   margin: 40px 60px 40px 0;
 }
 #wdpp-image {
-  max-width: 40vw
+  max-width: 40vw;
 }
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px)
-{
+@media (min-width: 576px) {
   .overview-bg1 {
     border: none;
   }
   .course-seq {
     font-size: 16px;
     color: black;
-
   }
   .seq-name {
     color: black;
@@ -321,12 +369,10 @@ div[id^="tf"]  {
   }
 }
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px)
-{
+@media (min-width: 768px) {
   .course-seq {
     font-size: 20px;
     color: black;
-
   }
   .seq-name {
     color: black;
@@ -335,8 +381,7 @@ div[id^="tf"]  {
   }
 }
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px)
-{
+@media (min-width: 992px) {
   h1 {
     font-size: 2.25rem;
   }
@@ -355,20 +400,20 @@ div[id^="tf"]  {
   h6 {
     font-size: 1.5rem;
   }
-  ul, p {
+  ul,
+  p {
     font-size: 16px;
   }
   .col-6#code-img {
     padding: 0;
   }
   .overview-bg1 {
-    background: rgb(255,255,255);
+    background: rgb(255, 255, 255);
     border: none;
   }
   .course-seq {
     font-size: 20px;
     color: black;
-
   }
   .seq-name {
     color: black;
@@ -377,15 +422,13 @@ div[id^="tf"]  {
   }
 }
 /* XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1200px)
-{
+@media (min-width: 1200px) {
   #wdpp-image {
-    max-width: 33vw
+    max-width: 33vw;
   }
   .course-seq {
     font-size: 20px;
     color: black;
-
   }
   .seq-name {
     color: black;
