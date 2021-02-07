@@ -1,48 +1,60 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <title>CTE Web Design</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <!-- Font Awesome CSS -->
-  <script src="https://kit.fontawesome.com/ebd820205d.js" crossorigin="anonymous"></script>
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-  <!-- My CSS -->
-  <link rel="stylesheet" href="css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"/>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Rock+Salt&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/main.css" />
 
+    <script src="https://kit.fontawesome.com/ebd820205d.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title>WDPP - Contact</title>
   </head>
   <body>
-    <div class="contain">
-      <!-- NAVBAR-->
-      <nav class="navbar sticky-top navbar-expand-lg navbar-light white-bg">
-        <a class="navbar-brand" href="index.html"><img class="image-fluid brand-image" src="img/global/brand-logo-c.png" alt="CTE Web Design"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light white-bg">
+      <div class="container-fluid px-3">
+        <a class="navbar-brand" href="#">
+          <img class="brand-image" src="img/logos/brand-logo-c.png" alt="WDPP Logo" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button> <!-- /.navbar-toggler -->
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav ml-auto mr-2 mt-2 mt-lg-0">
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="curriculum.html">Curriculum</a>
-            </li>
-            <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="bottom" title="COMING SOON!">
-              <a class="nav-link disabled" href="schools.html">Schools</a>
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="why.html">Why Web Design?</a>
+              <a class="nav-link" href="courses.html">Courses</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
+              <a class="nav-link" href="careers.html">Careers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
+            <li>
+              <span class="d-block d-sm-none">x-small</span>
+              <span class="d-none d-sm-block d-md-none">small</span>
+              <span class="d-none d-md-block d-lg-none">medium</span>
+              <span class="d-none d-lg-block d-xl-none">large</span>
+              <span class="d-none d-xl-block d-xxl-none">x-large</span>
+              <span class="d-none d-xxl-block">xx-large</span>
+            </li>
           </ul>
-        </div><!-- /.collapse /.navbar-collapse -->
-      </nav>
+        </div>
+      </div>
+    </nav>
 
   <div class="container">
     <div class="row py-5">
@@ -74,15 +86,90 @@
 </div><!-- /.container -->
 </div><!-- /.container-fluid -->
 
+<div class="container-fluid foot px-0 mt-5">
+  <div class="row top-foot mx-0">
+    <div class="col-3 justify-content-center" id="tf-1">
+      <img src="img/logos/brand-logo-w.png" alt="" height="75" />
+    </div>
 
-<!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <div class="col-9 d-md-none" id="tf-g">
+      <address class="my-auto">
+        <b>Freehold Regional High School District</b>
+        <br />
+        <a href="https://www.google.com/maps/place/11+Pine+St,+Englishtown,+NJ+07726/@40.2982013,-74.3586908,17z/data=!3m1!4b1!4m5!3m4!1s0x89c3d129a54436c5:0x4a1fddd306e9320b!8m2!3d40.2982013!4d-74.3565021">
+          11 Pine Street
+          <br />Englishtown, NJ 07726
+        </a>
+        <br />
+        <a href="tel:732-792-7300">Phone: 732-792-7300</a>
+      </address>
+    </div>
 
-  <script src="js/tool-tip.js" charset="utf-8"></script>
+    <div class="col d-none d-md-flex" id="tf-2">
+      <address class="my-auto">
+        <b>Freehold High School</b>
+        <br />
+        <a href="https://www.google.com/maps/place/2+Robertsville+Rd,+Freehold,+NJ+07728/@40.2679837,-74.2706252,17z/data=!3m1!4b1!4m5!3m4!1s0x89c3d463aa637cfd:0x4de58622780c1b0c!8m2!3d40.2677271!4d-74.268367">
+          2 Robertsville Road
+          <br />Freehold, NJ 07728
+          </a>
+        <br />
+        <a href="tel:732-431-8360">Phone: 732-431-8360</a>
+      </address>
+    </div>
 
-  </script>
+    <div class="col d-none d-md-flex" id="tf-3">
+      <address class="my-auto">
+        <b>Freehold Township High School</b>
+        <br />
+        <a href="https://www.google.com/maps/place/281+Elton+Adelphia+Rd,+Freehold,+NJ+07728/@40.2201507,-74.2848244,17z/data=!3m1!4b1!4m5!3m4!1s0x89c3d59687c623cd:0x247c2f3634db9d95!8m2!3d40.2201507!4d-74.2826357">
+          281 Elton-Adelphia Road
+          <br />Freehold, NJ 07728
+          </a>
+        <br />
+        <a href="tel:732-431-8460">Phone: 732-431-8460</a>
+      </address>
+    </div>
+
+    <div class="col d-none d-md-flex" id="tf-4">
+      <address class="my-auto">
+        <b>Marlboro High School</b>
+        <br />
+        <a href="https://www.google.com/maps/place/95+N+Main+St,+Marlboro,+NJ+07746/@40.329545,-74.2492833,17z/data=!3m1!4b1!4m5!3m4!1s0x89c3d2e9313ad007:0xcc9d139999f2ba3e!8m2!3d40.329545!4d-74.2470946">
+          95 North Main Street
+          <br />Marlboro, NJ 07746
+        </a>
+        <br />
+        <a href="tel:732-617-8393">Phone: 732-617-8393</a>
+      </address>
+    </div>
+  </div>
+  <!-- Close top footer row -->
+  <div class="row bottom-foot d-flex align-items-center mx-0">
+    <div class="col-3">
+      <div class="row text-center">
+        <div class="col-4">
+          <a class="btn disabled" href=""><i class="fab fa-instagram fa-2x"></i></a>
+        </div>
+        <div class="col-4">
+          <a class="btn disabled" href=""><i class="fab fa-twitter fa-2x"></i></a>
+        </div>
+        <div class="col-4">
+          <a class="btn disabled" href=""><i class="fab fa-youtube fa-2x"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col text-center">
+      <a class="footer-link" href="https://www.frhsd.com/">Freehold Regional High School District</a>
+    </div>
+    <div class="col-3 d-none d-md-flex">
+      <a class="footer-link" href="https://www.frhsd.com/Page/361">District Curriculum Page</a>
+    </div>
+  </div>
+</div>
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
 </body>
 </html>
