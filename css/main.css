@@ -26,6 +26,24 @@ ul,
 p {
   font-size: 16px;
 }
+.school {
+  font-size: 24px;
+}
+.schedule p {
+  font-size: 14px;
+  text-align: left;
+}
+.contacts a {
+  text-decoration: none;
+  color: black;
+}
+.title {
+  font-size: 22px;
+}
+.title + p {
+  font-size: 18px;
+  font-weight: bold;
+}
 .docs {
   background-color: #333;
   background-image: linear-gradient(to bottom, #333, #2b2b2b);
